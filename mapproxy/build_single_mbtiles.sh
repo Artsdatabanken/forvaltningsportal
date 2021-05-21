@@ -3,7 +3,7 @@
 
 DEST_PATH=/home/grunnkart/tilesdata/grunnkart
 SOURCE_PATH=$1webmercator
-if [! -d $SOURCE_PATH ] then
+if [ ! -d $SOURCE_PATH ]; then
   echo Using google
   SOURCE_PATH=$1google
 fi
